@@ -2,7 +2,7 @@
 
 # GitHub Actions Matrix Build for Multiple Python Versions and OS
 
-This project showcases how to use GitHub Actions to set up a matrix build for testing Python code across different Python versions and operating systems. The project includes a simple palindrome checker implementation with unit tests, and utilizes a `Makefile` for managing tasks like dependency installation, code formatting, linting, and testing.
+This project showcases how to use GitHub Actions to set up a matrix build for testing Python code across different Python versions and operating systems. The project includes a simple `palindrome checker` implementation with `unit tests`, and utilizes a `Makefile` for managing tasks like dependency `installation`, code `formatting`, `linting`, and `testing`.
 
 ## Project Structure
 
@@ -12,11 +12,13 @@ This project showcases how to use GitHub Actions to set up a matrix build for te
 
 ## GitHub Actions Workflow
 
-The GitHub Actions workflow (`.github/workflows/CI.yml`) runs automatically on:
+The GitHub Actions workflow (`.github/workflows/CI_Matrix_test.yml`) runs automatically on:
 
 - Pushes to the `main` branch.
 - Pull requests targeting the `main` branch.
 - Manual triggers via `workflow_dispatch`.
+
+![Matrix_Build_multiple_version_run][CI_Matrix_test_build.PNG]
 
 ### Workflow Details
 
