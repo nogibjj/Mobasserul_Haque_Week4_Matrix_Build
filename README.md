@@ -1,6 +1,6 @@
 [![CI_Matrix_test](https://github.com/nogibjj/Mobasserul_Haque_Week4_Matrix_Build/actions/workflows/CI_Matrix_test.yml/badge.svg)](https://github.com/nogibjj/Mobasserul_Haque_Week4_Matrix_Build/actions/workflows/CI_Matrix_test.yml)
 
-# GitHub Actions Matrix Build for Multiple Python Versions and OS
+# Week4: GitHub Actions Matrix Build for Multiple Python Versions
 
 This project showcases how to use GitHub Actions to set up a matrix build for testing Python code across different Python versions and operating systems. The project includes a simple `palindrome checker` implementation with `unit tests`, and utilizes a `Makefile` for managing tasks like dependency `installation`, code `formatting`, `linting`, and `testing`.
 
@@ -52,15 +52,19 @@ The `Makefile` includes commands to streamline the development process:
 To run the tasks locally, you can use the following commands:
 
 
-# Install dependencies
+### Install dependencies
 make install
+![make install](make_install.PNG)
 
-
-# Format code
+### Format code
 make format
+![make format](make_format.PNG)
 
-# Lint code
+### Lint code
 make lint
+![make lint](make_lint.PNG)
 
-# Run tests
+### Run tests
 make test
+![make test](make_test.PNG)
+
