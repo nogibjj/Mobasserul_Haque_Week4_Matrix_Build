@@ -53,18 +53,22 @@ To run the tasks locally, you can use the following commands:
 
 
 ### Install dependencies
-make install
+
+`make install`
 ![make install](make_install.PNG)
 
 ### Format code
-make format
+
+`make format`
 ![make format](make_format.PNG)
 
 ### Lint code
-make lint
+
+`make lint`
 ![make lint](make_lint.PNG)
 
 ### Run tests
-make test
+
+`make test`
 ![make test](make_test.PNG)
 
