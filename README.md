@@ -1,5 +1,5 @@
-[![CI](https://github.com/nogibjj/Mobasserul_Haque_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Mobasserul_Haque_MiniProject1/actions/workflows/cicd.yml)
-Python Template for week1 mini project IDS706
+[![CI_Matrix_test](https://github.com/nogibjj/Mobasserul_Haque_Week4_Matrix_Build/actions/workflows/CI_Matrix_test.yml/badge.svg)](https://github.com/nogibjj/Mobasserul_Haque_Week4_Matrix_Build/actions/workflows/CI_Matrix_test.yml)
+
 # Palindrome Checker
 
 This project contains a Python function to check if a given word is a palindrome. 
