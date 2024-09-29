@@ -54,6 +54,7 @@ To run the tasks locally, you can use the following commands:
 ```bash
 # Install dependencies
 make install
+```bash
 
 # Format code
 make format
